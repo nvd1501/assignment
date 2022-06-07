@@ -8,7 +8,141 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div class="max-w-6xl m-auto">
+      <ul class="hidden md:inline-block md:flex justify-end space-x-8 p-5 text-xl font-medium ">
+        <li><a href="">Works</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+    <!-- //End banner -->
+    <div class="max-w-6xl m-auto px-5 py-20">
+      <div class="text-center md:grid grid-cols-3 ">
+        <div class="col-span-2 py-5">
+          <h2 class="text-[44px] font-bold leading-[60px]">Hi, I am John,<br>
+            Creative Technologist</h2>
+
+            <p class="text-base my-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet<br> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam<br> consequat sunt nostrud amet.</p>
+
+            <a href=""><button class="inline-block bg-red-500 py-3 px-10 mt-5 text-xl font-medium text-gray-300 rounded-sm hover:text-white">Download Resume</button></a>
+        </div>
+      <!-- --------------- -->
+        <div class="cols-span-1 justify-between">
+         <img src="src/img/Ellipse 1.png" alt="" class=" ml-auto max-w-full">
+        </div>
+      </div>
+    </div>
+    <!-- END hd1 -->
+    <section class="bg-[#EDF7FA]">
+    <div class="max-w-6xl m-auto p-5">
+      <div class="text-center md:flex justify-between ">
+        <h2 class="text-[22px] ">Recent posts</h2>
+        <a href="" class="hidden md:inline-block text-base text-[#00A8CC] hover:text-gray-500">View all</a>
+      </div>
+      <!-- ----------Cols------- -->
+      <div class="grid md:grid-cols-2 gap-8 py-5">
+       <div class="p-5  bg-white rounded-md ">
+        <div>
+          <h3 class="mb-5"><a href="" class="text-[26px] font-bold hover:text-gray-500">Making a design system from scratch</a></h3>
+        </div>
+        <div class="flex space-x-4 text-lg ">
+          <span>12 Feb 2020</span>
+          <span>|</span>
+          <span>Design, Pattern</span>
+        </div>
+        
+        <p class="py-5">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+       </div>
+
+       <div class="p-5 bg-white rounded-md ">
+        <div>
+          <h3 class="mb-5"><a href="" class="text-[26px] font-bold hover:text-gray-500">Creating pixel perfect icons in Figma</a></h3>
+        </div>
+        <div class="flex space-x-4 text-lg ">
+          <span>12 Feb 2020</span>
+          <span>|</span>
+          <span>Figma, Icon Design</span>
+        </div>
+        
+        <p class="py-5">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+       </div>
+      </div>
+    </div>
+  </section>
+<!-- -------------END Section -->
+    <div class="max-w-6xl m-auto px-5 pt-5 pb-20">
+    <div class="flex justify-between">
+      <h3 class="pb-5">Featured works</h3>
+    </div>
+       <div class="grid md:grid-cols-[246px,auto] gap-8 border-b">
+        <div class="">
+          <img src="src/img/img1.png" alt="" class="w-full rounded-lg">
+        </div>
+        
+        <div class="py-5">
+          <h3><a href="" class="text-3xl font-bold hover:text-gray-500">Designing Dashboards</a></h3>
+          <div class="flex py-5 ">
+            <span class=" text-lg font-black  px-3 bg-black text-white rounded-3xl">2020</span>
+            <span class=" pl-10 text-xl font-medium text-[#8695A4]">Dashboard</span>
+          </div>
+          <p class="text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit  <br> mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      </div>
+         
+      <div class="grid md:grid-cols-[246px,auto] gap-8 pt-10 border-b">
+        <div class="">
+          <img src="src/img/img2.png" alt="" class="w-full rounded-lg">
+        </div>
+        
+        <div class="py-5">
+          <h3><a href="" class="text-3xl font-bold hover:text-gray-500">Vibrant Portraits of 2020</a></h3>
+          <div class="flex py-5 ">
+            <span class=" text-lg font-black  px-3 bg-black text-white rounded-3xl">2018</span>
+            <span class=" pl-10 text-xl font-medium text-[#8695A4]">Illustration</span>
+          </div>
+          <p class="text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit  <br> mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      </div>
+      
+      <div class="grid md:grid-cols-[246px,auto] gap-8 pt-10 border-b">
+        <div class="">
+          <img src="src/img/img3.png" alt="" class="w-full rounded-lg">
+        </div>
+        
+        <div class="py-5">
+          <h3><a href="" class="text-3xl font-bold hover:text-gray-500">36 Days of Malayalam type</a></h3>
+          <div class="flex py-5 ">
+            <span class=" text-lg font-black  px-3 bg-black text-white rounded-3xl">2018</span>
+            <span class=" pl-10 text-xl font-medium text-[#8695A4]">Typography</span>
+          </div>
+          <p class="text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit  <br> mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      </div>
+    </div>
+    <!-- --------------End project -->
+    
+      <div class="max-w-6xl m-auto py-10 " >
+        <ul class="flex space-x-8 justify-center py-5">
+          <li><a href=""><img src="src/icon/fb.svg" alt=""></a></li>
+          <li><a href=""><img src="src/icon/insta.svg" alt=""></a></li>
+          <li><a href=""><img src="src/icon/twitter.svg" alt=""></a></li>
+          <li><a href=""><img src="src/icon/Linkedin.svg" alt=""></a></li>
+        </ul>
+        <p class="text-center">Copyright ©2020 All rights reserved </p>
+      </div>
+    
   </body>
 </html>
+
+
+
+
+
+
+
+
+
