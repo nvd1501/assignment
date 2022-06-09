@@ -8,11 +8,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
+    <script src="main.js"></script>
     <div class="max-w-6xl m-auto px-5">
-      <ul class="hidden md:inline-block md:flex justify-end space-x-8 p-5 text-xl font-medium ">
-        <li><a href="">Works</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
+      <button onclick="handleClick()" class="flex justify-end md:hidden w-full"><img src="src/icon/Mobile-Header.svg" alt=""></button>
+      <ul id="main-menu" class="hidden text-right md:flex justify-end md:space-x-8 p-5 text-xl font-medium ">
+        <li ><a href="trang3.html" class="block hover:text-[#FF6464]">Works</a></li>
+        <li ><a href="trang2.html" class=" hover:text-[#FF6464]">Blog</a></li>
+        <li ><a href="trang4.html" class=" hover:text-[#FF6464]">Contact</a></li>
       </ul>
     </div>
     <!-- //End banner -->
@@ -31,7 +33,7 @@
          <img src="src/img/Ellipse 1.png" alt="" class="mx-auto md:ml-auto max-w-full">
         </div>
       </div>
-    </div>
+    </div>     
     <!-- END hd1 -->
     <section class="bg-[#EDF7FA]">
     <div class="max-w-6xl m-auto p-5">
