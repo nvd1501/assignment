@@ -6,3 +6,4 @@ function handleClick() {
     menu.style.display = "block";
   }
 }
+
